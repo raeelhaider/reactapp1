@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      <h1> Hello World. This is React's tutorial, which is a UI libraray of JS. </h1>
+      <h1> Road to DevOps . </h1>
       
     </div>
   );
