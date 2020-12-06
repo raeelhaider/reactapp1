@@ -1,10 +1,10 @@
 import React from 'react';
 
-function Technology () {
+function Technology (props) {
     return ( 
         <div> 
-            <h1> I am learning Cloud Computing </h1>
-            <h2> I am moving towards a 180* shift</h2>
+            <h1> I am learning {props.latest} </h1>
+            
         </div>
     )
 }
