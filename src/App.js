@@ -9,6 +9,9 @@ function App() {
     <div>
      
       <Technology latest="Cloud Computing" latest2="Devops"/>
+      <Technology latest="Artificial Intelligence" latest2="Data Science"/>
+      <Technology latest="Cyber Security" latest2="Pan Testing"/>
+      
     </div>
   );
 }
