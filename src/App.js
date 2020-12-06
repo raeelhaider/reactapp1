@@ -7,8 +7,7 @@ import Technology from './technology.js';
 function App() {
   return (
     <div>
-      <Technology> </Technology>
-      
+      <Technology latest="Cloud Computing"/>
     </div>
   );
 }
