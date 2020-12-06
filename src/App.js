@@ -1,10 +1,13 @@
 
+import React from 'react';
 import './App.css';
+import Technology from './technology.js';
+
 
 function App() {
   return (
     <div>
-      <h1> Road to DevOps . </h1>
+      <Technology> </Technology>
       
     </div>
   );
