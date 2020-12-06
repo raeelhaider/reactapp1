@@ -1,22 +1,22 @@
 
 import React from 'react';
 import './App.css';
-import Technology from './technology.js';
+import University from './university.js';
 
 
 function App() {
   return (
     <div>
-     
-      <Technology latest="Cloud Computing" latest2="Devops"/>
       
-      <hr/>
-      
-      <Technology latest="Artificial Intelligence" latest2="Data Science"/>
+      <University education="Electronic Engineering" shift="Industrial Electronics"/>
 
       <hr/>
 
-      <Technology latest="Cyber Security" latest2="Pan Testing"/>
+      <University education="Electronic Engineering" shift="Network Engineering"/>
+
+      <hr/>
+
+      <University education="Electronic Engineering" shift="Software Development"/>
       
     </div>
   );
