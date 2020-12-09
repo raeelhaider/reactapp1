@@ -1,6 +1,17 @@
 
 import React from 'react';
-import University from './university.js';
+import handleAction from './handleaction.js';
+import Child from './child.js';
+
+function App() {
+
+  return (
+    <Child onAction={handleAction}/>
+    );
+}
+
+
+/*import University from './university.js';
 import Technology from './technology.js';
 
 
@@ -22,6 +33,6 @@ function App() {
       <Technology field="Software Engineering"/>
     </div>
   );
-}
+} */
 
 export default App;
